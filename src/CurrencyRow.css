@@ -12,6 +12,7 @@
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  max-width: 40%;
 }
 
 .row .input {
@@ -30,5 +31,6 @@
   padding: 0 0.5rem;
   margin: 0 0 0.2rem 0;
   border-radius: 6px;
+  width: 100%;
 }
 /*# sourceMappingURL=CurrencyRow.css.map */
