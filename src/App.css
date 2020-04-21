@@ -1,3 +1,9 @@
+*,
+hrtml {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   background-color: #b6b6b6;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -12,6 +18,8 @@ body {
           align-items: center;
   min-height: 100vh;
   width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
 .currContainer {
@@ -33,8 +41,8 @@ body {
           box-sizing: border-box;
   padding: 2rem;
   border-radius: 6px;
-  -webkit-box-shadow: 6px 8px 33px rgba(0, 0, 0, 0.33);
-          box-shadow: 6px 8px 33px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: 10px 48px 93px rgba(0, 0, 0, 0.53);
+          box-shadow: 10px 48px 93px rgba(0, 0, 0, 0.53);
   width: 100%;
   max-width: 400px;
   margin: auto;
