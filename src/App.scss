@@ -24,4 +24,19 @@ body {
     margin: 0 auto 1.2rem;
     font-weight: 100;
   }
+  .selectors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .equals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 0.45rem;
+    font-size: 2rem;
+  }
 }
